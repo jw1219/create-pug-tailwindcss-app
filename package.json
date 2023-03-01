@@ -11,5 +11,8 @@
     "url": "create-lp-with-pug-tailwindcss"
   },
   "author": "Jesse Wei",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
 }
