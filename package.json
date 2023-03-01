@@ -1,6 +1,6 @@
 {
-  "name": "create-lp-with-pug-tailwindcss",
-  "version": "1.0.1",
+  "name": "create-pug-tailwindcss-app",
+  "version": "1.0.0",
   "description": "npx command to set up a landing page project with pug and tailwindcss",
   "bin": "./bin/cli.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jw1219/create-lp-with-pug-tailwindcss"
+    "url": "https://github.com/jw1219/create-pug-tailwindcss-app"
   },
   "author": "Jesse Wei",
   "license": "ISC",
