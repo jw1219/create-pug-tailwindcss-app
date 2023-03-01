@@ -25,5 +25,7 @@ console.log(`Installing dependencies for ${repoName}`)
 const installedDeps = runCommand(installDepsCommand)
 if(!installedDeps) process.exit(-1)
 
-console.log('Done. Run the following command to start.')
+console.log('Done. Run the following commands to start.')
 console.log(`cd ${repoName}`)
+console.log('To compile tailwindcss, npm run css')
+console.log('To compile pug, npm run pug')
