@@ -4,6 +4,8 @@
   "description": "npx command to set up a landing page project with pug and tailwindcss",
   "bin": "./bin/cli.js",
   "scripts": {
+    "pug": "pug —watch src -o dist -P",
+    "css": "npx tailwindcss -i src/input.css -o dist/style.css —watch",
     "test": "jest"
   },
   "repository": {
