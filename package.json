@@ -1,0 +1,15 @@
+{
+  "name": "create-lp-with-pug-tailwindcss",
+  "version": "1.0.0",
+  "description": "npx command to set up a landing page project with pug and tailwindcss",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "create-lp-with-pug-tailwindcss"
+  },
+  "author": "Jesse Wei",
+  "license": "ISC"
+}
