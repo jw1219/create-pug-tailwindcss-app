@@ -4,13 +4,14 @@
   "description": "npx command to set up a landing page project with pug and tailwindcss",
   "bin": "./bin/cli.js",
   "scripts": {
-    "pug": "pug --watch src -o dist -P",
-    "css": "npx tailwindcss -i src/input.css -o dist/style.css --watch",
-    "test": "jest"
+    "build:html": "npx pug src -o dist",
+    "build:css": "npx tailwindcss -i src/input.css -o dist/style.css",
+    "build:dev": "npm run build:html --pretty --watch && npm run build:css --watch && cp -r images/* dist",
+    "build:prod": "rm -r dist; npm run build:html && npm run build:css && cp -r images/* dist"
   },
   "repository": {
     "type": "git",
-    "url": "create-lp-with-pug-tailwindcss"
+    "url": "https://github.com/jw1219/create-lp-with-pug-tailwindcss"
   },
   "author": "Jesse Wei",
   "license": "ISC",
