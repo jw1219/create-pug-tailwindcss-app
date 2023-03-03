@@ -6,7 +6,7 @@
   "scripts": {
     "build:html": "npx pug src -o dist",
     "build:css": "npx tailwindcss -i src/input.css -o dist/style.css",
-    "start": "npx tailwindcss -i src/input.css -o dist/style.css --watch | npx pug --watch src -o dist --pretty | npx cpx \"images/**/*\" build --watch",
+    "start": "npx tailwindcss -i src/input.css -o dist/style.css --watch | npx pug --watch src -o dist --pretty | npx cpx \"images/**/*\" dist --watch",
     "build:prod": "rm -r dist; npm run build:html && npm run build:css && cp -r images/* dist"
   },
   "repository": {
